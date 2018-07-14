@@ -5,7 +5,9 @@ import tornadofx.*
 
 class HelloWorld : View() {
     override val root = hbox {
-        label("Hello world")
+        button("Alert").setOnAction { _ ->
+            information("header text", "content text")
+        }
     }
 }
 
@@ -15,7 +17,6 @@ class HelloWorldStyle : Stylesheet() {
             prefWidth = 400.px
             prefHeight = 400.px
             alignment = Pos.CENTER
-            fontSize = 50.px
         }
     }
 }

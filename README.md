@@ -1,6 +1,6 @@
-Kotlin TornadoFx (JavaFx) Demo
-===============================
+Kotlin TornadoFx Alert Demo
+============================
 
-A simple "Hello world" demo for TornadoFX.
+Alert information dialog.
 
 Run `Hello.kt` from your IDE.
